@@ -1,5 +1,8 @@
 name: Repo Hygiene
-on: [push, pull_request]
+
+on:
+  push:
+  pull_request:
 
 jobs:
   terraform-fmt:
@@ -7,7 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: hashicorp/setup-terraform@v3
-      - run: terraform fmt -check -recursive || true
+      - name: Check Terraform format
+        run: terraform fmt -check -recursive || true
 
   markdown-link-check:
     runs-on: ubuntu-latest
