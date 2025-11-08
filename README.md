@@ -23,7 +23,7 @@ It automates ingestion, transformation, validation, and curation of data, provid
 | **Visualization** | QuickSight, Python, Power BI | Enables dashboards and ad-hoc insights from Athena datasets |
 
 <p align="center">
-  <img src="docs/10-architecture-overview.png" alt="AWS Data Pipeline Architecture" width="720">
+  <img src="docs/Flowchart_Diagram.png" alt="AWS Data Pipeline Architecture" width="720">
 </p>
 
 ---
