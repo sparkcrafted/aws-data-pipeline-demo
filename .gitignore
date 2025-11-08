@@ -1,0 +1,17 @@
+# Terraform
+*.tfstate
+.terraform/
+*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# AWS credentials
+.env
+*.pem
+
+# IDE / system
+.DS_Store
+.vscode/
