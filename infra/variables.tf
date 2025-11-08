@@ -21,3 +21,8 @@ variable "aws_profile" {
   type        = string
   default     = null
 }
+variable "awswrangler_layer_arn" {
+  description = "Optional AWS SDK for pandas layer ARN (Python 3.12) for your region."
+  type        = string
+  default     = ""
+}
