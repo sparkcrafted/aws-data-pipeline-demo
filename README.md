@@ -6,8 +6,7 @@
 
 ### End-to-end AWS data lake pipeline demonstrating batch, streaming, and database replication
 
-This repository implements a **fully serverless, production-pattern AWS data lake pipeline** built with Terraform, AWS Lambda, Glue, and Athena.  
-It automates ingestion, transformation, validation, and curation of data, providing a complete reference for modern cloud data engineering.
+Modular, reusable Terraform modules for rapid AWS data lake pipeline deployment as Infrastructure-as-Code. This repository implements a **fully serverless, production-pattern AWS data lake pipeline** built with Terraform, AWS Lambda, Glue, and Athena. It automates ingestion, transformation, validation, and curation of data, providing a complete reference for modern cloud data engineering.
 
 ---
 
